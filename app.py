@@ -14,8 +14,8 @@ import cv2
 from paddleocr import PaddleOCR
 import torch
 
-# model = torch.hub.load('WongKinYiu/yolov7', 'custom', 'YOLO/best.pt')
-model = torch.hub.load('yolov7', 'custom', 'YOLO/best.pt', source='local')
+model = torch.hub.load('WongKinYiu/yolov7', 'custom', 'YOLO/best.pt')
+# model = torch.hub.load('yolov7', 'custom', 'YOLO/best.pt', source='local')
 # detect_fn = tf.saved_model.load("saved_model/export_test/saved_model")
 # category_index = {1: {'id': 1, 'name': 'licence'}}
 
